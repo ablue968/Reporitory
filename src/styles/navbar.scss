@@ -19,6 +19,10 @@ $navbar-light-hover-color: var(--primary-orange);
 
 /*--------Links------------------------------------*/
 
+nav{
+    z-index: 2;
+}
+
 nav a.nav-link{
     font-weight: 500;
     letter-spacing: 0.0375rem;
@@ -40,6 +44,7 @@ nav ul li{
     padding: 0;
     height: 4.5rem;
 }
+
 
 .navbar-nav > li > a.active, .navbar-nav > li > a.active:focus {
     border-top: 0.1875rem solid  var(--primary-orange);

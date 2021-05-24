@@ -1,0 +1,78 @@
+
+//-------- created colors -----------//
+:root{
+    --navbar-bg-color: #212529;
+    --primary-orange: #e5ac23;
+    --plain-white : #fff;
+    --primary-red: #fe001a;
+    --hover-red: #ff3f52;
+}
+
+
+.header-wraper{
+    position:relative;
+    background: url("../multimedia/background.jpg") no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 90vh;
+}
+
+.main-info{
+    display: flex;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    z-index: 1;
+}
+
+.main-info h1{
+    color: var(--primary-orange);
+    text-transform: uppercase;
+}
+
+@media(max-width: 768px){
+    .main-info h1{
+        font-size: 1.5rem;
+    }
+}
+
+/*---------Type-text----------------*/
+
+.typed-text{
+    font-size: 2rem;
+    color: var(--plain-white)
+}
+
+@media(max-width: 768px){
+    .main-info h1{
+        font-size: 1.7rem;
+    }
+
+    .typed-text{
+        font-size: 1.3rem;
+    }
+}
+
+
+/*---------header main offer button----------------*/
+
+.btn-main-offer{
+    border: 1px solid var(--primary-red);
+    text-transform: uppercase;
+    border-radius: 0;
+    padding: 0.625rem,0.75rem,0.75rem,0.75rem;
+    color: var(--plain-white);
+    margin: 2rem;
+}
+
+.btn-main-offer:hover{
+    text-decoration: none;
+    background-color: var(--hover-red);
+    transition: .2s ease-in-out;
+}

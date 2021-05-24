@@ -3,3 +3,19 @@
 body{
     font-family: 'Work Sans', sans-serif;
 }
+
+
+/*------------ Particles---------------*/
+
+.tsparticles-canvas-el {
+    position: absolute;
+    height: 100vh;
+    width: 100vw;
+    z-index: 1;
+}
+
+@media(max-width:768px) {
+    .particles-canvas{
+        display: none;
+    }
+}
