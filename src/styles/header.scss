@@ -1,11 +1,9 @@
 
 //-------- created colors -----------//
 :root{
-    --navbar-bg-color: #212529;
-    --primary-orange: #e5ac23;
-    --plain-white : #fff;
     --primary-red: #fe001a;
     --hover-red: #ff3f52;
+    --typed-white: #fff
 }
 
 
@@ -32,6 +30,7 @@
 }
 
 .main-info h1{
+    font-weight: bolder;
     color: var(--primary-orange);
     text-transform: uppercase;
 }
@@ -46,7 +45,7 @@
 
 .typed-text{
     font-size: 2rem;
-    color: var(--plain-white)
+    color: var(--typed-white);
 }
 
 @media(max-width: 768px){

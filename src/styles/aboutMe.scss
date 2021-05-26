@@ -8,3 +8,15 @@
     padding: 0.3rem;
     border: 1px solid var(--primary-orange);
 }
+
+h1{
+    color: var(--primary-orange);
+    text-transform: uppercase;
+}
+
+@media(max-width: 468px){
+    .profile-img{
+        width:10rem;
+        height: 9rem;
+    }
+}

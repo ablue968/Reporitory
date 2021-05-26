@@ -7,13 +7,19 @@ const AboutMe = () => {
     return (
         <div className="container py-5">
             <div className="row">
-                <div className=" col-lg-6 col-xm-6">
-                    <div className="photo-wrap">
-                        <img className="profile-img" src={author} alt="This is a photo of me"/>
+                <div className=" col-lg-4 col-xm-6">
+                    <div className="photo-wrap text-center">
+                        <img className="profile-img " src={author} alt="This is a photo of me" />
                     </div>
                 </div>
-                <div className="col-lg-6 col-xm-6">
-                    <h1>hola</h1>
+                <div className="col-lg-8 col-xm-6">
+                    <h1 className='text-center mt-1' >About me</h1>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's  
+                        standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make
+                         a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, 
+                         remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing 
+                         Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions 
+                         of Lorem Ipsum.</p>
                 </div>
             </div>
         </div>
