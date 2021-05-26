@@ -1,9 +1,14 @@
 import "bootstrap/dist/css/bootstrap.min.css";
 
+/*-------particles effect---------- */
+import Particles from "react-particles-js"
+
+
+
 /*-------Components --------*/
 import Navbar from "./components/Navbar.js";
 import Header from "./components/Header.js";
-import Particles from "react-particles-js"
+import AboutMe from "./components/AboutMe.js";
 /*------------------------- */
 
 /*------Style---------------*/
@@ -35,6 +40,7 @@ function App() {
       />
       <Navbar />
       <Header />
+      <AboutMe />
     </>
   );
 }
