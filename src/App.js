@@ -9,6 +9,7 @@ import Particles from "react-particles-js"
 import Navbar from "./components/Navbar.js";
 import Header from "./components/Header.js";
 import AboutMe from "./components/AboutMe.js";
+import Services from "./components/Services.js";
 /*------------------------- */
 
 /*------Style---------------*/
@@ -41,6 +42,7 @@ function App() {
       <Navbar />
       <Header />
       <AboutMe />
+      <Services />
     </>
   );
 }

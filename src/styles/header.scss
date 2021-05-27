@@ -1,12 +1,4 @@
 
-//-------- created colors -----------//
-:root{
-    --primary-red: #fe001a;
-    --hover-red: #ff3f52;
-    --typed-white: #fff
-}
-
-
 .header-wraper{
     position:relative;
     background: url("../multimedia/background.jpg") no-repeat;
@@ -45,7 +37,7 @@
 
 .typed-text{
     font-size: 2rem;
-    color: var(--typed-white);
+    color: var(--primary-white);
 }
 
 @media(max-width: 768px){

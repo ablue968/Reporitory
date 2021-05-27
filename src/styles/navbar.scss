@@ -1,12 +1,5 @@
 @import "../../node_modules/bootstrap/scss/bootstrap.scss";
 
-//-------- created colors -----------//
-:root{
-    --navbar-bg-color: #212529;
-    --primary-orange: #e5ac23;
-    --plain-white : #cdcab4;
-}
-
 /*----------bootstrap var ------------*/
 
 $navbar-light-hover-color: var(--primary-orange);
@@ -35,7 +28,7 @@ nav ul li{
 .navbar-nav > li > a{
     margin-right: 0.75rem;
     margin-left: 0.75rem;
-    border-top: solid var(--navbar-bg-color);
+    border-top: solid var(----primary-dark);
 }
 
 .navbar-brand{
