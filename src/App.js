@@ -10,6 +10,7 @@ import Navbar from "./components/Navbar.js";
 import Header from "./components/Header.js";
 import AboutMe from "./components/AboutMe.js";
 import Services from "./components/Services.js";
+import Experience from "./components/Experience";
 /*------------------------- */
 
 /*------Style---------------*/
@@ -43,6 +44,7 @@ function App() {
       <Header />
       <AboutMe />
       <Services />
+      <Experience />
     </>
   );
 }
