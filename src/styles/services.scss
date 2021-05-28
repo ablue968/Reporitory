@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
 
 .services{
     background-color: var(--primary-cold-grey);
@@ -16,10 +17,19 @@
 }
 
 .services .box{
+    font-family: 'Noto sans', sans-serif ;
     height: 16rem;
     border-bottom: 0.3125rem solid var(--primary-orange);
     background: var(--primary-white);
 }
+
+//Im having problems with the services blocks between 750px and 990px, so
+//lets query and create a new className.
+@media screen and (max-width: 990px) and (min-width: 750px) {
+    .services .mobile-fix{
+      width: 50%;
+    }
+  }
 
 .services .box:hover{
     background: var(--primary-orange);
