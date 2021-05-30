@@ -8,9 +8,9 @@ const Experience = () => {
             <div className="d-flex justify-content-center my-5 text-uppercase">
                 <h1>experience!</h1>
             </div>
-            <div className="container experience-wrapper overflow-hidden p-5 position-absolute start-50 translate-middle-x ">
+            <div className="container experience-wrapper overflow-hidden p-5">
                 <div className="timeline-block float-end">
-                    <div className="position-absolute start-50 translate-middle-x marker float-start me-2"></div>
+                    <div className="marker float-start me-2"></div>
                     <div className="timeline-content">
                         <h3>2014-2015</h3>
                         <p>
@@ -23,7 +23,7 @@ const Experience = () => {
                 </div>
                 {/*-------------------------------------------------------------- */}
                 <div className="timeline-block">
-                    <div className="position-absolute start-50 translate-middle-x marker float-start me-2"></div>
+                    <div className="marker float-start me-2"></div>
                     <div className="timeline-content left">
                         <h3>2015-2016</h3>
                         <p>
@@ -36,7 +36,7 @@ const Experience = () => {
                 </div>
                 {/*-------------------------------------------------------------- */}
                 <div className="timeline-block float-end">
-                    <div className="position-absolute start-50 translate-middle-x marker float-start me-2"></div>
+                    <div className="marker float-start me-2"></div>
                     <div className="timeline-content">
                         <h3>2016-2017</h3>
                         <p>
@@ -49,7 +49,7 @@ const Experience = () => {
                 </div>
                 {/*-------------------------------------------------------------- */}
                 <div className="timeline-block">
-                    <div className="position-absolute start-50 translate-middle-x marker float-start me-2"></div>
+                    <div className="marker float-start me-2"></div>
                     <div className="timeline-content left">
                         <h3>2017-2018</h3>
                         <p>
