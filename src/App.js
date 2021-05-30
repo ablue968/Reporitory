@@ -11,6 +11,7 @@ import Header from "./components/Header.js";
 import AboutMe from "./components/AboutMe.js";
 import Services from "./components/Services.js";
 import Experience from "./components/Experience";
+import Portfolio from "./components/Portfolio";
 /*------------------------- */
 
 /*------Style---------------*/
@@ -45,6 +46,7 @@ function App() {
       <AboutMe />
       <Services />
       <Experience />
+      <Portfolio/>
     </>
   );
 }
