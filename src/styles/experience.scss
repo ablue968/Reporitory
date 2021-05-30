@@ -18,12 +18,12 @@
 .timeline-block{
     width: calc(48% + 0.5rem);
     clear: both;
-    
 }
 
 .float-start{
-    direction: ltr;
+    direction: rtl;
 }
+
 
 .marker{
     width: 1rem;
@@ -33,4 +33,25 @@
     background: var(--primary-orange);
     margin-top: 0.625rem;
     z-index: 3;
+}
+
+.timeline-content{
+    content: "";
+    width: 95%;
+    padding: 0 0 0 0.9375rem;
+    color: var(--primary-dark);
+    direction: ltr;
+    
+}
+.timeline-content h3{
+    margin-top: 0.3125rem;
+    color:var(--primary-red);
+    font-weight: 900;
+}
+
+.left h3{
+    direction: rtl;
+}
+.left p{
+    text-align: justify;
 }
