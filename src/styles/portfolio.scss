@@ -51,3 +51,12 @@
     width: 30rem;
     padding: 0 0.5rem;
 }
+
+.hyper-link{
+    cursor: pointer;
+    color: var(--primary-orange);
+    
+}
+.hyper-link:hover{
+    color: var(--primary-red);
+}
