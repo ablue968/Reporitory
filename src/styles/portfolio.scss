@@ -1,11 +1,7 @@
 
 .portfolio-wrapper{
-    background: var(--primary-white);
     padding: 3rem 0;
-}
-
-.portfolio-wrapper h1{
-    color: var(--primary-orange);
+    background-color: var(--primary-grey);
 }
 
 .portfolio-image{
@@ -18,10 +14,8 @@
 .portfolio-image-box{
     position:relative;
     margin: 1rem;
-    padding: auto;
     display: flex;
     justify-content: center;
-    
 }
 
 .overflow{
@@ -31,8 +25,12 @@
     width: 13rem;
     height: 10rem;
     top: 0;
-    border: 1px solid var(--primary-red);
+    border: 3px solid var(--primary-red);
     cursor: pointer;
+}
+
+.portfolio-image-box img{
+    background-color: var(--primary-white);
 }
 
 .portfolio-image-box:hover .overflow{

@@ -9,7 +9,7 @@ import { faDesktop, faFileCode } from '@fortawesome/free-solid-svg-icons'
 function Services() {
     return (
         <div className="services text-center pb-4">
-        <h1 className="py-5 text-uppercase"> My services</h1>
+        <h1 className="py-5 text-uppercase fw-bolder"> My services</h1>
             <div className="container">
                 <div className="row">
                     <div className="col-md-3 col-sm-6 mobile-fix">

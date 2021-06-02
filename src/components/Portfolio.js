@@ -142,27 +142,27 @@ function Portfolio() {
     }
 
     return (
-        <div className="porfolio-wrapper">
+        <div className="portfolio-wrapper">
             <div className="container">
-                <h1 className="text-uppercase text-center py-5"> Portfolio</h1>
+                <h1 className="text-uppercase text-center py-5 fw-bolder"> Portfolio</h1>
                 <div className="image-box-wrapper row overflow-hidden">{/* acá debo cambiar esto para que pueda estar en row*/}
                     <div className="portfolio-image-box col " onClick={openPopupboxFirstOne}>
-                        <img className="portfolio-image" src={primera} alt="primero" />
+                        <img className="portfolio-image rounded" src={primera} alt="primero" />
                         <div className="overflow"></div>
                         <FontAwesomeIcon className="portfolio-icon" icon={faSearchPlus} />
                     </div>
                     <div className="portfolio-image-box col" onClick={openPopupboxtSecondOne}>
-                        <img className="portfolio-image" src={segunda} alt="segunda" />
+                        <img className="portfolio-image rounded" src={segunda} alt="segunda" />
                         <div className="overflow"></div>
                         <FontAwesomeIcon className="portfolio-icon" icon={faSearchPlus} />
                     </div>
                     <div className="portfolio-image-box col" onClick={openPopupboxThirdOne}>
-                        <img className="portfolio-image" src={tercera} alt="tercera" />
+                        <img className="portfolio-image rounded" src={tercera} alt="tercera" />
                         <div className="overflow"></div>
                         <FontAwesomeIcon className="portfolio-icon" icon={faSearchPlus} />
                     </div>
                     <div className="portfolio-image-box col" onClick={openPopupboxFourtOne}>
-                        <img className="portfolio-image" src={cuarta} alt="cuarta" />
+                        <img className="portfolio-image rounded" src={cuarta} alt="cuarta" />
                         <div className="overflow"></div>
                         <FontAwesomeIcon className="portfolio-icon" icon={faSearchPlus} />
                     </div>

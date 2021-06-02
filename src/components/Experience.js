@@ -6,7 +6,7 @@ const Experience = () => {
     return (
         <div className="experience ">
             <div className="d-flex justify-content-center my-5 text-uppercase">
-                <h1>experience</h1>
+                <h1 className=" fw-bolder">experience</h1>
             </div>
             <div className="container experience-wrapper overflow-hidden p-5">
                 <div className="timeline-block float-end">
