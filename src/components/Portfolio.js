@@ -145,23 +145,23 @@ function Portfolio() {
         <div className="porfolio-wrapper">
             <div className="container">
                 <h1 className="text-uppercase text-center py-5"> Portfolio</h1>
-                <div className="image-box-wrapper d-flex justify-content-evenly">{/* acá debo cambiar esto para que pueda estar en row*/}
-                    <div className="portfolio-image-box" onClick={openPopupboxFirstOne}>
+                <div className="image-box-wrapper row overflow-hidden">{/* acá debo cambiar esto para que pueda estar en row*/}
+                    <div className="portfolio-image-box col " onClick={openPopupboxFirstOne}>
                         <img className="portfolio-image" src={primera} alt="primero" />
                         <div className="overflow"></div>
                         <FontAwesomeIcon className="portfolio-icon" icon={faSearchPlus} />
                     </div>
-                    <div className="portfolio-image-box" onClick={openPopupboxtSecondOne}>
+                    <div className="portfolio-image-box col" onClick={openPopupboxtSecondOne}>
                         <img className="portfolio-image" src={segunda} alt="segunda" />
                         <div className="overflow"></div>
                         <FontAwesomeIcon className="portfolio-icon" icon={faSearchPlus} />
                     </div>
-                    <div className="portfolio-image-box" onClick={openPopupboxThirdOne}>
+                    <div className="portfolio-image-box col" onClick={openPopupboxThirdOne}>
                         <img className="portfolio-image" src={tercera} alt="tercera" />
                         <div className="overflow"></div>
                         <FontAwesomeIcon className="portfolio-icon" icon={faSearchPlus} />
                     </div>
-                    <div className="portfolio-image-box" onClick={openPopupboxFourtOne}>
+                    <div className="portfolio-image-box col" onClick={openPopupboxFourtOne}>
                         <img className="portfolio-image" src={cuarta} alt="cuarta" />
                         <div className="overflow"></div>
                         <FontAwesomeIcon className="portfolio-icon" icon={faSearchPlus} />
