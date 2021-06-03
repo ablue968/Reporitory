@@ -12,6 +12,7 @@ import AboutMe from "./components/AboutMe.js";
 import Services from "./components/Services.js";
 import Experience from "./components/Experience";
 import Portfolio from "./components/Portfolio";
+import Contact from "./components/Contact";
 /*------------------------- */
 
 /*------Style---------------*/
@@ -47,6 +48,7 @@ function App() {
       <Services />
       <Experience />
       <Portfolio/>
+      <Contact/>
     </>
   );
 }

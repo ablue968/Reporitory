@@ -27,7 +27,7 @@ function Portfolio() {
         const content = (
             <>
                 <img className="portfolio-image-popupbox" src={primera} alt="primera" />
-                <p>description about the project 1</p>
+                <p>description about the project 1. acá iría un texto un poco largo así que vamo a inventa</p>
                 <b>GitHub:</b><a className="hyper-link" onClick={() => { window.open(linkToProject1) }}>"put in here the link as text"</a>
             </>
         )
@@ -57,7 +57,7 @@ function Portfolio() {
         const content = (
             <>
                 <img className="portfolio-image-popupbox" src={segunda} alt="segundo" />
-                <p>description about the project 2</p>
+                <p>description about the project 2. acá iría un texto un poco largo así que vamo a inventa</p>
                 <b>GitHub:</b><a className="hyper-link" onClick={() => { window.open(linkToProject2) }}>"put in here the link as text"</a>
             </>
         )
@@ -87,7 +87,7 @@ function Portfolio() {
         const content = (
             <>
                 <img className="portfolio-image-popupbox" src={tercera} alt="tercero" />
-                <p>description about the project 3</p>
+                <p>description about the project 3. acá iría un texto un poco largo así que vamo a inventa</p>
                 <b>GitHub:</b><a className="hyper-link" onClick={() => { window.open(linkToProject3) }}>"put in here the link as text"</a>
             </>
         )
@@ -117,7 +117,7 @@ function Portfolio() {
         const content = (
             <>
                 <img className="portfolio-image-popupbox" src={cuarta} alt="cuarto" />
-                <p>description about the project 4</p>
+                <p>description about the project 4. acá iría un texto un poco largo así que vamo a inventa</p>
                 <b>GitHub:</b><a className="hyper-link" onClick={() => { window.open(linkToProject4) }}>"put in here the link as text"</a>
             </>
         )
