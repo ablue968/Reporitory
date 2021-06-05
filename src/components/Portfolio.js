@@ -142,7 +142,7 @@ function Portfolio() {
     }
 
     return (
-        <div className="portfolio-wrapper">
+        <div id="portfolio" className="portfolio-wrapper">
             <div className="container">
                 <h1 className="text-uppercase text-center py-5 fw-bolder"> Portfolio</h1>
                 <div className="image-box-wrapper row overflow-hidden">{/* acá debo cambiar esto para que pueda estar en row*/}

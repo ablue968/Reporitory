@@ -72,6 +72,10 @@
     justify-content: center;
 }
 
+.popupbox-wrapper{
+    margin-top: 8rem;
+}
+
 @media(max-width: 768px){
     .portfolio-image-popupbox{
         width: 90%;
@@ -84,7 +88,7 @@
 
 @media(max-height: 570px){
     .popupbox-wrapper{
-        height: 90%;
+        height: 18.75rem;
     }
 
     .portfolio-image-popupbox{

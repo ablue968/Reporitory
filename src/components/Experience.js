@@ -4,8 +4,8 @@ import '../styles/experience.scss'
 
 const Experience = () => {
     return (
-        <div className="experience ">
-            <div className="d-flex justify-content-center my-5 text-uppercase">
+        <div id="experience" className="experience ">
+            <div className="d-flex justify-content-center py-5 text-uppercase">
                 <h1 className=" fw-bolder">experience</h1>
             </div>
             <div className="container experience-wrapper overflow-hidden p-5">

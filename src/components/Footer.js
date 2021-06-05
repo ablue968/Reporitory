@@ -75,12 +75,20 @@ const Footer = () => {
                                 <RedditIcon className="mx-3 rounded-circle" size={36}/>
                             </RedditShareButton>
                             <LinkedinShareButton
-                                url={"https://www.linkedin.com/in/jpereirad/</div>"}
+                                url={"https://www.linkedin.com/in/jpereirad"}
                                 quote={"FullStack Developer"}
                                 hashtag="#Javascript #React #Python #MySQL"
                             >
                                 <LinkedinIcon className="mx-3 rounded-circle" size={36}/>
                             </LinkedinShareButton>
+                            <    WhatsappShareButton
+
+                                url={"https://www.linkedin.com/in/jpereirad/</div>"}
+                                quote={"FullStack Developer"}
+                                hashtag="#Javascript #React #Python #MySQL"
+                            >
+                                <WhatsappIcon className="mx-3 rounded-circle" size={36}/>
+                            </    WhatsappShareButton>
                         </div>
                     </div>
                 </div>
