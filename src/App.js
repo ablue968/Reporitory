@@ -13,6 +13,7 @@ import Services from "./components/Services.js";
 import Experience from "./components/Experience";
 import Portfolio from "./components/Portfolio";
 import Contact from "./components/Contact";
+import Footer from "./components/Footer";
 /*------------------------- */
 
 /*------Style---------------*/
@@ -49,6 +50,7 @@ function App() {
       <Experience />
       <Portfolio/>
       <Contact/>
+      <Footer/>
     </>
   );
 }
