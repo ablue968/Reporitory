@@ -34,7 +34,7 @@ const Footer = () => {
                         </div>
                     </div>
                     <div className="col-lg-3 col-md-2 col-sm-6">
-                        <div className="row">
+                        <div className="row text-center">
                             <div className="col">
                                 <a className="footer-nav"> Home</a>
                                 <br/>
@@ -58,28 +58,28 @@ const Footer = () => {
                                 quote={"FullStack Developer"}
                                 hashtag="#Javascript #React #Python #MySQL"
                             >
-                                <FacebookIcon className="mx-3 rounded-circle" size={36}/>
+                                <FacebookIcon className="mx-2 rounded-circle" size={36}/>
                             </FacebookShareButton>
                             <TwitterShareButton
                                 url={"https://www.linkedin.com/in/jpereirad/"}
                                 quote={"FullStack Developer"}
                                 hashtag="#Javascript #React #Python #MySQL"
                             >
-                                <TwitterIcon className="mx-3 rounded-circle" size={36}/>
+                                <TwitterIcon className="mx-2 rounded-circle" size={36}/>
                             </TwitterShareButton>
                             <RedditShareButton
                                 url={"https://www.linkedin.com/in/jpereirad/"}
                                 quote={"FullStack Developer"}
                                 hashtag="#Javascript #React #Python #MySQL"
                             >
-                                <RedditIcon className="mx-3 rounded-circle" size={36}/>
+                                <RedditIcon className="mx-2 rounded-circle" size={36}/>
                             </RedditShareButton>
                             <LinkedinShareButton
                                 url={"https://www.linkedin.com/in/jpereirad/"}
                                 quote={"FullStack Developer"}
                                 hashtag="#Javascript #React #Python #MySQL"
                             >
-                                <LinkedinIcon className="mx-3 rounded-circle" size={36}/>
+                                <LinkedinIcon className="mx-2 rounded-circle" size={36}/>
                             </LinkedinShareButton>
                             <    WhatsappShareButton
 
@@ -87,7 +87,7 @@ const Footer = () => {
                                 quote={"FullStack Developer"}
                                 hashtag="#Javascript #React #Python #MySQL"
                             >
-                                <WhatsappIcon className="mx-3 rounded-circle" size={36}/>
+                                <WhatsappIcon className="mx-2 rounded-circle" size={36}/>
                             </    WhatsappShareButton>
                         </div>
                     </div>
