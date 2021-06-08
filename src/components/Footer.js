@@ -54,28 +54,28 @@ const Footer = () => {
                     <div className="col-lg-5 col-md-5 col-sm-6 d-flex align-items-center">
                         <div className="d-flex justify-content-center">
                             <FacebookShareButton
-                                url={"https://www.linkedin.com/in/jpereirad/</div>"}
+                                url={"https://www.linkedin.com/in/jpereirad/"}
                                 quote={"FullStack Developer"}
                                 hashtag="#Javascript #React #Python #MySQL"
                             >
                                 <FacebookIcon className="mx-3 rounded-circle" size={36}/>
                             </FacebookShareButton>
                             <TwitterShareButton
-                                url={"https://www.linkedin.com/in/jpereirad/</div>"}
+                                url={"https://www.linkedin.com/in/jpereirad/"}
                                 quote={"FullStack Developer"}
                                 hashtag="#Javascript #React #Python #MySQL"
                             >
                                 <TwitterIcon className="mx-3 rounded-circle" size={36}/>
                             </TwitterShareButton>
                             <RedditShareButton
-                                url={"https://www.linkedin.com/in/jpereirad/</div>"}
+                                url={"https://www.linkedin.com/in/jpereirad/"}
                                 quote={"FullStack Developer"}
                                 hashtag="#Javascript #React #Python #MySQL"
                             >
                                 <RedditIcon className="mx-3 rounded-circle" size={36}/>
                             </RedditShareButton>
                             <LinkedinShareButton
-                                url={"https://www.linkedin.com/in/jpereirad"}
+                                url={"https://www.linkedin.com/in/jpereirad/"}
                                 quote={"FullStack Developer"}
                                 hashtag="#Javascript #React #Python #MySQL"
                             >
@@ -83,7 +83,7 @@ const Footer = () => {
                             </LinkedinShareButton>
                             <    WhatsappShareButton
 
-                                url={"https://www.linkedin.com/in/jpereirad/</div>"}
+                                url={"https://www.linkedin.com/in/jpereirad/"}
                                 quote={"FullStack Developer"}
                                 hashtag="#Javascript #React #Python #MySQL"
                             >
