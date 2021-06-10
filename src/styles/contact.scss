@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Hammersmith+One&display=swap');
+
 
 .contact{
     background: var(--primary-dark);
@@ -7,6 +9,7 @@
 .contact h1{
     color: var(--primary-orange);
     padding: 1.3rem 0;
+    font-family: 'Hammersmith One', sans-serif;
 }
 
 .contact p{

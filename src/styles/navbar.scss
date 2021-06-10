@@ -1,4 +1,6 @@
 @import "../../node_modules/bootstrap/scss/bootstrap.scss";
+@import url('https://fonts.googleapis.com/css2?family=Hammersmith+One&display=swap');
+
 
 /*----------bootstrap var ------------*/
 
@@ -23,6 +25,8 @@ nav a.nav-link{
 
 nav ul li{
     text-transform: uppercase;
+    font-family: 'Hammersmith One', sans-serif;
+
 }
 
 .navbar-nav > li > a{

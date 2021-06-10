@@ -1,7 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Hammersmith+One&display=swap');
+
 
 .portfolio-wrapper{
     padding: 3rem 0;
     background-color: var(--primary-grey);
+}
+
+.container h1.text-center{
+    font-family: 'Hammersmith One', sans-serif;
+
 }
 
 .portfolio-image{

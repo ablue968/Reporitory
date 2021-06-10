@@ -19,19 +19,19 @@ const Navbar = () => {
                 <div className="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul className="navbar-nav ms-auto">
                         <li className="nav-item active">
-                            <Link smooth={true} to="about" offset={-88} className="nav-link" href="#">About me</Link>
+                            <Link smooth={true} to="aboutMe" offset={-88} className="nav-link">About me</Link>
+                        </li>
+                        {/* <li className="nav-item">
+                            <Link smooth={true} to="services" offset={-88} className="nav-link">Services</Link>
+                        </li> */}
+                        <li className="nav-item">
+                            <Link smooth={true} to="experience" offset={-88} className="nav-link">Experience</Link>
                         </li>
                         <li className="nav-item">
-                            <Link smooth={true} to="services" offset={-88} className="nav-link" href="#">Services</Link>
-                        </li>
-                        <li className="nav-item">
-                            <Link smooth={true} to="experience" offset={-88} className="nav-link" href="#">Experience</Link>
-                        </li>
-                        <li className="nav-item">
-                            <Link smooth={true} to="portfolio" offset={-88} className="nav-link" href="#">Portfolio</Link>
+                            <Link smooth={true} to="portfolio" offset={-88} className="nav-link">Portfolio</Link>
                         </li>
                         <li className="nav-item active">
-                            <Link smooth={true} to="contact" offset={-88} className="nav-link" href="#">Contact me</Link>
+                            <Link smooth={true} to="contact" offset={-88} className="nav-link">Contact me</Link>
                         </li>
                     </ul>
                 </div>

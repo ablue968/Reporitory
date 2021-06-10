@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Hammersmith+One&display=swap');
+
 
 .header-wraper{
     position:relative;
@@ -25,6 +27,8 @@
     font-weight: bolder;
     color: var(--primary-orange);
     text-transform: uppercase;
+    font-family: 'Hammersmith One', sans-serif;
+
 }
 
 @media(max-width: 768px){
@@ -38,6 +42,8 @@
 .typed-text{
     font-size: 2rem;
     color: var(--primary-white);
+    font-family: 'Hammersmith One', sans-serif;
+
 }
 
 @media(max-width: 768px){
@@ -54,16 +60,19 @@
 /*---------header main offer button----------------*/
 
 .btn-main-offer{
-    border: 1px solid var(--primary-red);
+    border: 0.5rem  solid var(--primary-red);
+    text-decoration: none;
     text-transform: uppercase;
-    border-radius: 0;
-    padding: 0.625rem,0.75rem,0.75rem,0.75rem;
+    border-radius: 0.35rem;
+    font-family: 'Hammersmith One', sans-serif;
+    padding: 0.5rem;
     color: var(--plain-white);
     margin: 2rem;
 }
 
 .btn-main-offer:hover{
     text-decoration: none;
+    color: var(--primary-white);
     background-color: var(--hover-red);
     transition: .2s ease-in-out;
 }

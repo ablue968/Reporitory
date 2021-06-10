@@ -46,7 +46,7 @@ function App() {
       <Navbar />
       <Header />
       <AboutMe />
-      <Services />
+      {/* <Services /> */}
       <Experience />
       <Portfolio/>
       <Contact/>
