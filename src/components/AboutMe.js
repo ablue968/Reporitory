@@ -2,6 +2,10 @@ import React from 'react';
 import author from "../multimedia/photoPortfolio.jpg";
 import '../styles/aboutMe.scss';
 
+//  REACT font-awsome icon import //
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import {  faFlask, faGrinTears } from "@fortawesome/free-solid-svg-icons"
+import { faBootstrap, faCss3, faFreeCodeCamp, faGit, faHtml5, faJs, faPython, faReact, faSass } from '@fortawesome/free-brands-svg-icons';
 
 const AboutMe = () => {
     return (
@@ -14,13 +18,31 @@ const AboutMe = () => {
                 </div>
                 <div className="col-lg-8 col-xm-6">
                     <h1 className='text-center about-h1 mt-1 fw-bolder' >About me</h1>
-                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's  
-                        standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make
-                         a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, 
-                         remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing 
-                         Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions 
-                         of Lorem Ipsum-cambio.
+                    <p>Hi! Welcome to my little cave A.K.A portfolio.<br/>
+                        My name is Jhon and I'm coding since 2020. The Technologies and Science
+                        in general have always been of my interest, thats why I did a jump from
+                        administration to here (AND IT FEELS AMAZING!), of course this happened with a lot of work and
+                        wasn't a choice that I took without further thought. I started looking for 
+                        some sites to learn by myself such as <b className="freecode-icon">freecodecamp<FontAwesomeIcon  className="ms-1" icon={faFreeCodeCamp} /></b><br/>
+                        When I found a flaw on my learning progress I thought about having some actual guidance to learn, thats
+                        where 4Geeks Academy came to the ecuation and helped me greatly to have a better understanding
+                        about the front-end and back-end, so... that's what we call a FullStack<br />
+                        I have other interest such as languages, I have a B1 in French and do well on my English (looking foward to certificate this one), you 
+                        can count me in if there is a basketball game! And things as culture and history have always time in may day to learn something new.<br/>
+                        My Technologies at the moment:
                     </p>
+                    <div className="text-center">
+                        <FontAwesomeIcon className="technologies" icon={faReact} />
+                        <FontAwesomeIcon className="technologies" icon={faJs} />
+                        <FontAwesomeIcon className="technologies" icon={faHtml5} />
+                        <FontAwesomeIcon className="technologies" icon={faCss3} />
+                        <FontAwesomeIcon className="technologies" icon={faSass} />
+                        <FontAwesomeIcon className="technologies" icon={faBootstrap} />
+                        <FontAwesomeIcon className="technologies" icon={faPython} />
+                        <FontAwesomeIcon className="technologies" icon={faFlask} />
+                        <FontAwesomeIcon className="technologies" icon={faGit} />
+                    </div>
+                    
                 </div>
             </div>
         </div>

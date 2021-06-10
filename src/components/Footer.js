@@ -26,12 +26,12 @@ const Footer = () => {
                         <div className="d-flex">
                             <p>vivo por acá</p>
                         </div>
-                        <div className="d-flex my-2">
-                            <a href="tel:722-27-04-47">(+34)722-27-04-47</a>
+                        {/* <div className="d-flex my-2">
+                            <a href="tel:xxx-xx-xx-xx">xx xxx-xx-xx-xx</a>
                         </div>
                         <div className="d-flex my-2">
-                            <p className="m-0">ablue968@gmail.com</p>
-                        </div>
+                            <p className="m-0">mail8@gmail.com</p>
+                        </div> */}
                     </div>
                     <div className="col-lg-3 col-md-2 col-sm-6">
                         <div className="row text-center">
