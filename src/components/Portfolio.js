@@ -1,6 +1,6 @@
 import React from 'react'
 import '../styles/portfolio.scss'
-import primera from '../multimedia/GifProjects/primera.jpg'
+import aroundSpain from '../multimedia/GifProjects/aroundSpain.gif'
 import segunda from '../multimedia/GifProjects/segunda.jpg'
 import tercera from '../multimedia/GifProjects/tercera.jpg'
 import cuarta from '../multimedia/GifProjects/cuarta.jpg'
@@ -16,19 +16,22 @@ import "react-popupbox/dist/react-popupbox.css";
 
 
 
-const linkToProject1 = "https://i.picsum.photos/id/1025/4951/3301.jpg?hmac=_aGh5AtoOChip_iaMo8ZvvytfEojcgqbCH7dzaz-H8Y"
+const linkToAroundSpain = "https://github.com/ablue968/AroundSpain"
+const herokuAroundSpain = "https://aroundspain.herokuapp.com/"
 const linkToProject2 = "https://i.picsum.photos/id/1019/5472/3648.jpg?hmac=2mFzeV1mPbDvR0WmuOWSiW61mf9DDEVPDL0RVvg1HPs"
 const linkToProject3 = "https://i.picsum.photos/id/1023/3955/2094.jpg?hmac=AW_7mARdoPWuI7sr6SG8t-2fScyyewuNscwMWtQRawU"
 const linkToProject4 = "https://i.picsum.photos/id/1055/5472/3648.jpg?hmac=1c293cGVlNouNQsjxT8y3nsYO-7qLCaOBEGvih0ibEU"
 
 function Portfolio() {
 
-    const openPopupboxFirstOne = () => {
+    const openAroundSpain = () => {
         const content = (
             <>
-                <img className="portfolio-image-popupbox" src={primera} alt="primera" />
-                <p>description about the project 1. acá iría un texto un poco largo así que vamo a inventa</p>
-                <b>GitHub:</b><a className="hyper-link" onClick={() => { window.open(linkToProject1) }}>"put in here the link as text"</a>
+                <img className="portfolio-image-popupbox" src={aroundSpain} alt="aroundSpain" />
+                <p className="portfolio-p-popupbox">Web aplication focused on delivering to the user basic infomation about new places to visit such as population, wiki info and temperatura (all from public's API), you have to login to unlock the post comment's section and favorite button</p>
+                <b>GitHub:</b><a className="hyper-link" onClick={() => { window.open(linkToAroundSpain) }}> https://github.com/ablue968/AroundSpain</a>
+                <br />
+                <b>Heroku:</b><a className="hyper-link" onClick={() => { window.open(herokuAroundSpain) }}> https://aroundspain.herokuapp.com</a>
             </>
         )
         PopupboxManager.open({ content });
@@ -36,7 +39,7 @@ function Portfolio() {
             content,
             config: {
                 titleBar: {
-                    text: "First one"
+                    text: "AroundSpain"
                 },
 
             },
@@ -145,9 +148,9 @@ function Portfolio() {
         <div id="portfolio" className="portfolio-wrapper">
             <div className="container">
                 <h1 className="text-uppercase text-center py-5 fw-bolder"> Portfolio</h1>
-                <div className="image-box-wrapper row overflow-hidden">{/* acá debo cambiar esto para que pueda estar en row*/}
-                    <div className="portfolio-image-box col " onClick={openPopupboxFirstOne}>
-                        <img className="portfolio-image rounded" src={primera} alt="primero" />
+                <div className="image-box-wrapper row ">{/* acá debo cambiar esto para que pueda estar en row*/}
+                    <div className="portfolio-image-box col " onClick={openAroundSpain}>
+                        <img className="portfolio-image rounded" src={aroundSpain} alt="aroundSpain" />
                         <div className="overflow"></div>
                         <FontAwesomeIcon className="portfolio-icon" icon={faSearchPlus} />
                     </div>

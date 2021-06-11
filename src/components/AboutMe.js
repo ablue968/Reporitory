@@ -22,15 +22,15 @@ const AboutMe = () => {
                         <p>Hi! Welcome to my little cave A.K.A portfolio.<br/>
                             My name is Jhon and I'm coding since 2020. The Technologies and Science
                             in general have always been of my interest, thats why I did a jump from
-                            administration to here (AND IT FEELS AMAZING!), of course this happened with a lot of work and
+                            administration <b className="marker-icon" > to code (AND IT FEELS AMAZING!)</b>, of course this happened with a lot of work and
                             wasn't a choice that I took without further thought. I started looking for 
-                            some sites to learn by myself such as <b className="freecode-icon">freecodecamp<FontAwesomeIcon  className="ms-1" icon={faFreeCodeCamp} /></b><br/>
+                            some sites to learn by myself such as <b className="marker-icon">freecodecamp<FontAwesomeIcon  className="ms-1" icon={faFreeCodeCamp} /></b><br/>
                             When I found a flaw on my learning progress I thought about having some actual guidance to learn, that's
-                            where 4Geeks Academy came to the ecuation and helped me greatly to have a better understanding
-                            about the front-end and back-end, so... that's what we call a <b>FullStack Developer</b><br />
-                            I have other interests such as languages, I have a B1 in French and do well on my English (I'm looking foward to certificate this one), you 
+                            where <b className="marker-icon">4Geeks Academy</b> came to the ecuation and helped me greatly to have a better understanding
+                            about the front-end and back-end, so... that's what we call a <b className="marker-icon">FullStack Developer</b><br />
+                            I have other interests such as learn new ways to comunicate, I have a <b className="marker-icon">B1 in French</b> and do well on my <b className="marker-icon">English</b> (I'm looking foward to certificate this one), you 
                             can count me in if there is a basketball game! And things as culture and history have always time in may day to learn something new.<br/>
-                            <b>My Technologies at the moment:</b>
+                            <b className="marker-icon" >My Technologies at the moment:</b>
                         </p>
                         
                     </div>

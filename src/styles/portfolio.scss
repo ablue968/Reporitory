@@ -65,6 +65,10 @@
     padding: 0 0.5rem;
 }
 
+.portfolio-p-popupbox{
+    width: 30rem;
+}
+
 .hyper-link{
     cursor: pointer;
     color: var(--primary-orange);
@@ -108,7 +112,7 @@
         height: 90%;
     }
 
-    .portfolio-image-popupbox{
+    .portfolio-image-popupbox, .portfolio-p-popupbox{
         width: 30%;
     }
 
