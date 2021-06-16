@@ -49,7 +49,7 @@ function Portfolio() {
     const config1 = {
         titleBar: {
             enable: true,
-            text: "First one"
+            text: "AroundSpain"
         },
         fadeIn: true,
         fadeInSpeed: 500
